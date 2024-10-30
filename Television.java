@@ -1,4 +1,4 @@
-public class Television extends Electronicdevice{
+public class Television extends Electronics{
 	
 	float screenSize;
 	String model;
