@@ -66,82 +66,82 @@ public class Library {
 	
 	public int getpublication_year(){
 		System.out.println("publication year");
-		return 0;
+		return publication_year;
 	}
 	
 	public String getisbn(){
 		System.out.println("Is bn");
-		return null;
+		return isbn;
 	}
 	
 	public String getlanguage(){
 		System.out.println("Language");
-		return null;
+		return language;
 	}
 	
 	public String getgenre(){
 		System.out.println("Genre");
-		return null;
+		return genre;
 	}
 	
 	public int getpages(){
 		System.out.println("pages");
-		return 0;
+		return pages;
 	}
 	
 	public int getavailable_copies(){
 		System.out.println("Available copies");
-		return 0;
+		return available_copies;
 	}
 	
 	public int gettotal_copies(){
 		System.out.println("Total Copies");
-		return 0;
+		return total_copies;
 	}
 
 	public String getborrowed_id(){
 		System.out.println("borrowed id");
-		return null;
+		return borrowed_id;
 	}
 	
 	public int getdue_date(){
 		System.out.println("Due dates");
-		return 0;
+		return due_date;
 	}
 	
 	public int getcheck_out_date(){
 		System.out.println("check out dates");
-		return 0;
+		return check_out_date;
 	}
 	
 	public int getreturn_date(){
 		System.out.println("Return date");
-		return 0;
+		return return_date;
 	}
 	
 	public boolean getis_damaged(){
 		System.out.println("Is damged");
-		return false;
+		return is_damaged;
 	}
 	
 	public boolean getis_reserved(){
 		System.out.println("Is reserved");
-		return false;
+		return is_reserved;
 	}
 	
 	public int getreservation_date(){
 		System.out.println("Reservation date");
-		return 0;
+		return reservation_date;
 	}
 	
 	public int getlast_borrowed_date(){
 		System.out.println("last borrowed date");
-		return 0;
+		return last_borrowed_date;
 	}
 	
 	public String getlocation_in_library(){
 		System.out.println("location in library");
-		return null;
+		return location_in_library;
 	}
 	
 	public void setbook_id(int book_id){
