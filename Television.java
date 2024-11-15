@@ -1,14 +1,9 @@
-public class Television extends Electronics{
+package com.xworkz.typecasting;
+
+public class Television extends Device{
 	
-	float screenSize;
-	String model;
-	int battary;
-
-
-	public void provideEntariement(){
-		System.out.println("Child class");
-
-	}
-
+	 public void wacthingMovie() {
+	    	System.out.println("an wacth the movie !");
+	    }
 
 }
